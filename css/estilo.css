@@ -281,7 +281,16 @@ h2 {
     display: flex;
     justify-content: space-evenly
 }
-
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: #0d6efd !important;
+}
+.bg-body-tertiary a{
+    color: yellow;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color:yellow;
+}
 /*responsive*/
 /*mobile last ---max-width*/
 /*tablet*/
