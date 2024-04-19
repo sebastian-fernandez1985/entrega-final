@@ -267,10 +267,16 @@ h2 {
     color: orange;
 }
 
+.footer {
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly
+}
+
 /*responsive*/
 /*mobile last ---max-width*/
 /*tablet*/
-@media (max-width:1023px){
+@media (max-width:1023px) {
     .grid-galeria {
         grid-template-areas:
             "img1 img2"
@@ -282,6 +288,7 @@ h2 {
     }
 
 }
+
 @media (max-width: 780px) {
     h1 {
         background-color: aqua;
@@ -304,7 +311,8 @@ h2 {
         grid-template-rows: repeat(3, 200px);
         grid-template-columns: repeat(2, 200px);
     }
-    .grid-galeria img{
+
+    .grid-galeria img {
         width: 100%;
         height: 100%;
     }
@@ -324,7 +332,8 @@ h2 {
         grid-template-rows: repeat(6, 200px);
         grid-template-columns: 1fr;
     }
-    .grid-galeria img{
+
+    .grid-galeria img {
         width: 100%;
         height: 100%;
     }
