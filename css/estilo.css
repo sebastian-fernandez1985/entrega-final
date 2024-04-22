@@ -1,8 +1,6 @@
-/*tipografia siempre primero*/
-
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&display=swap');
 
-/*RESETEO*/
+
 * {
     margin: 0;
     padding: 0;
@@ -34,7 +32,7 @@ h2 {
 
 }
 
-/* selector tipo clase*/
+
 
 .verde {
     background-color: aqua;
@@ -45,12 +43,12 @@ h2 {
     border-radius: 2030px;
 }
 
-/*selector tipo id*/
+
 #fixy {
     font-size: 40px;
 }
 
-/* barra de navegacion */
+
 .navegador {
     background-color: blue;
     color: red;
@@ -62,18 +60,18 @@ h2 {
     text-decoration: none;
 }
 
-/* saca el punto */
+
 .navegador ul {
     list-style-type: none;
 }
 
-/* fondo de un papel*/
+
 
 .fondo-papel {
     background-image: url("https://img.freepik.com/foto-gratis/textura-papel-rosa-arrugado_23-2147786574.jpg?w=360&t=st=1710956215~exp=1710956815~hmac=5616f0f32d284b7226d2a0e6a099fa722ced3a27166a169fab8eca06c2e79f2a")
 }
 
-/*zoom-bazar*/
+
 .zoom-bazar {
     display: flex;
     flex-direction: row;
@@ -155,7 +153,7 @@ h2 {
     font-size: 1rem;
 }
 
-/*grid galeria*/
+
 .main-galeria {
     display: flex;
     flex-direction: column;
@@ -231,15 +229,15 @@ h2 {
     width: 100%;
 }
 
-/*Estilos base para los divs*/
+
 .main-pf div {
     border: solid grey 1px;
     padding: 10px;
 }
 
-/*Estilos base para los enlaces*/
+
 .main-pf a {
-    /*Todos los elementos <a>*/
+
     display: inline-block;
     padding: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -248,7 +246,15 @@ h2 {
 }
 
 .main-pf a:hover {
-    /*Todos los elementos <a> cuando el mouse esté posicionado sobre ellos*/
+
+    font-weight: bold;
+    padding: 20px;
+    background-color: #0a0a3c;
+    color: azure;
+}
+
+.main-pf a:hover {
+
     font-weight: bold;
     padding: 20px;
     background-color: #0a0a3c;
@@ -256,16 +262,19 @@ h2 {
 }
 
 .main-pf a:active {
-    /*Todos los elementos <a> cuando se está haciendo click sobre ellos*/
+
     background-color: yellow;
     color: black;
 }
 
 .main-pf a:visited {
-    /*Todos los elementos <a> que tengan un atributo href definido y ya hayan sido visitados*/
+
     background-color: darkslategrey;
     color: #999;
 }
+
+
+
 
 .main-pf div:not(.padre) {
     padding-left: 40px;
@@ -281,19 +290,21 @@ h2 {
     display: flex;
     justify-content: space-evenly
 }
+
 .bg-body-tertiary {
     --bs-bg-opacity: 1;
     background-color: #0d6efd !important;
 }
-.bg-body-tertiary a{
+
+.bg-body-tertiary a {
     color: yellow;
 }
-.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
-    color:yellow;
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    color: yellow;
 }
-/*responsive*/
-/*mobile last ---max-width*/
-/*tablet*/
+
 @media (max-width:1023px) {
     .grid-galeria {
         grid-template-areas:
@@ -336,7 +347,7 @@ h2 {
     }
 }
 
-/*movile*/
+
 @media(max-width:419px) {
     .grid-galeria {
         grid-template-areas:
